@@ -9,7 +9,7 @@ var reverse = function(x) {
     if(output > 0x7FFFFFFF){
     return 0;
     }
-    
+    console.log(x < 0 ? -output : output);
     return x < 0 ? -output : output;
     
 };

@@ -1,6 +1,7 @@
 //Longest Common Prefix
 //strs string array
-
+strs = ["shitty","shit","sh"];
+longestCommonPrefix(strs);
 var longestCommonPrefix = function(strs) {
     if(strs.length === 0) return "";
     let strslength = strs.length;
@@ -11,5 +12,6 @@ var longestCommonPrefix = function(strs) {
              if(prefix === "") return "";
          } 
     }
+    console.log(prefix);
     return prefix;
 };
